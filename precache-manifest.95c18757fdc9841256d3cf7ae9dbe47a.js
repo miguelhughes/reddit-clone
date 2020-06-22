@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a3020032667d518e0b68a4fc783a11f2",
+    "revision": "83d7a0471b5615c6148d6990c968d8c0",
     "url": "/reddit-clone/index.html"
   },
   {
