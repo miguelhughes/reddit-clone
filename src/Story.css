@@ -1,0 +1,71 @@
+.story {
+  padding: 20px;
+  color: #999;
+}
+.story > div {
+  margin-right: 24px;
+  display: inline-block;
+}
+
+.story > div:last-of-type {
+  margin-right: 0;
+}
+.story .controls {
+  text-align: center;
+}
+.story .controls span,
+.story .controls button {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+}
+.story button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #999;
+}
+.story button:active {
+  color: black;
+}
+.story button:focus {
+  outline: none;
+}
+.actions span {
+  margin-right: 10px;
+}
+
+.story .thumbnail {
+  width: 100px;
+  text-align: center;
+}
+.story .thumbnail img {
+  max-width: 100px;
+  object-fit: cover;
+}
+.story .thumbnail svg {
+  font-size: 1.5em;
+  background-color: #ddd;
+  color: #fff;
+  padding: 20px;
+  border-radius: 45px;
+}
+.story .content {
+  max-width: 376px;
+}
+.story .content > div {
+  margin-bottom: 5px;
+}
+
+.story .title a,
+.story .commentAction {
+  color: brown;
+}
+.story .title a {
+  font-size: larger;
+  font-weight: bold;
+}
+.story .domain {
+  margin-left: 0.5em;
+  font-size: smaller;
+}

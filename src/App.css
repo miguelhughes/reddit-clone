@@ -1,0 +1,31 @@
+.app {
+  background-color: #ccc;
+}
+.header {
+  background-color: rgb(1, 73, 128);
+  padding-top: 50px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px 3px black;
+}
+.header .content {
+  background-color: #fff;
+  padding: 10px;
+}
+.header .title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+.header .subtitle {
+  color: #ccc;
+  font-size: 18px;
+}
+
+.header .title,
+.story-list {
+  margin: 0 auto;
+  max-width: 600px;
+}
