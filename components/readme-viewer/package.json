@@ -1,0 +1,20 @@
+{
+  "name": "@bit/miguelhughes.showcase.readme-viewer",
+  "version": "0.0.3",
+  "homepage": "https://bit.dev/miguelhughes/showcase/readme-viewer",
+  "main": "dist/ReadmeViewer/ReadmeViewer.js",
+  "dependencies": {
+    "prop-types": "15.7.2",
+    "@bit/miguelhughes.showcase.raw-file-loader": "0.0.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": ">=16.9.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.18"
+    }
+  }
+}

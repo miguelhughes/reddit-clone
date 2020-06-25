@@ -5,6 +5,11 @@
 /.pnp
 .pnp.js
 
+#bit build
+/dist
+/components/*/dist
+/components/*/node_modules
+
 # testing
 /coverage
 
